@@ -1,0 +1,57 @@
+name: ai_detection_app
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  image_picker: ^1.0.8
+  image: ^4.1.7
+  slide_to_act: ^2.0.2
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+  bloc: ^8.1.4
+  meta: ^1.10.0
+  loading_animation_widget: ^1.2.1
+  page_transition: ^2.1.0
+  flutter_animate: ^4.5.0
+  flutter_native_splash: ^2.3.10
+  flutter_launcher_icons: ^0.13.1
+  
+  detection_repository: 
+    path: packages/detection_repository  
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+      - assets/images/
+      - assets/tflite/
+  
+  fonts:
+  - family: Fragment
+    fonts:
+      - asset: assets/fonts/Fragment.otf
+
+flutter_native_splash:
+  color: "#B6AEA8"
+  image: assets/images/splash.png
+  android_12:
+    color: "#B6AEA8"
+    image: assets/images/splash.png
+
+flutter_launcher_icons:
+  image_path: "assets/images/icon.png" 
+  android: true 
+  ios: true 
