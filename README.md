@@ -1,16 +1,3 @@
-# ai_detection_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# AI Detection App
+## The application that let users upload/take photo from the camera, to recognize object on it
+![Mockup](https://github.com/mcntcw/ai_detection_app/assets/143199755/dbd92197-8e7c-43a3-a585-e07aaf28a232)
